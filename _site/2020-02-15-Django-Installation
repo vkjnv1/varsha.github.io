@@ -21,4 +21,3 @@ virtualenv env
 Once it’s activated the prefix is changed to (env),
 (env) varsha@varsha-X556UQK:$ pip install django
 (env) varsha@varsha-X556UQK:$ django-admin --version
-
