@@ -4,7 +4,7 @@
 
 - Install gparted in ubuntu :
 
-sudo apt list --installed | grep gparted
+sudo apt list --installed `|` grep gparted
 
 sudo apt-cache search gparted
 
