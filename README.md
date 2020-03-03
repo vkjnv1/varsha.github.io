@@ -1,4 +1,28 @@
+## To provide extra space to ubuntu
+
+03 march 2020
+
+- Install gparted in ubuntu :
+
+sudo apt list --installed | grep gparted
+
+sudo apt-cache search gparted
+
+sudo apt-get install gparted
+
+sudo gparted &
+
+and then follow the steps mentioned in the link :
+
+[https://www.youtube.com/watch?v=5y47WD_RRFc]
+
 ## Outcome Based Course
+
+
+
+
+## Outcome Based Course
+
 24 feb 2020 - 27 feb 2020
 
 _Steps for installation of OutcomeBasedCourse:_
@@ -34,7 +58,7 @@ _Steps for installation of OutcomeBasedCourse:_
  
 Open "http://127.0.0.1:8090" in your browser.
 
-[OutcomeBasedCourse] https://github.com/GreatDevelopers/OutcomeBasedCourse
+[https://github.com/GreatDevelopers/OutcomeBasedCourse]
 
 
 ## Software Carpentary Make
