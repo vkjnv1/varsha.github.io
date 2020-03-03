@@ -16,14 +16,35 @@ and then follow the steps mentioned in the link :
 
 [https://www.youtube.com/watch?v=5y47WD_RRFc]
 
+## Seminar on Software Carpentary Make
+
+29 feb 2020
+
+Main objectives of using Make are :-
+
+- To make results easier to produce.
+
+- To update things when scripts have changed rather than input files.
+
+- To eliminate redundancy in our file.
+
+- To define rules to operate on similar files.
+
+- To document our file.
+
+## Outcome Based Course
+28 feb 2020 , 02 feb 2020
+
+ The report of the project entitled "Outcome Based Courses" :-
+ 
+ This project gives the details of outcome-based courses formulates content around activities that leads to specific outcomes. It directly leads to increasing the proficiency of a particular knowledge of the student.
+ means starting with a clear picture of what is important for students to be able to do, then organizing the curriculum and assessment to make sure this learning ultimately happens”.
+
+This outcome based courses contains different sections like units, modules , courses , disciplines and levels . The main objectives , outcomes and overview of each courses will be mentioned and the resources will be provided for the same . The courses will be designed corresponding to different levels and institutions . These courses will help students to prior decide to chose the course according to their interest.
+
 ## Outcome Based Course
 
-
-
-
-## Outcome Based Course
-
-24 feb 2020 - 27 feb 2020
+26 feb 2020 - 27 feb 2020
 
 _Steps for installation of OutcomeBasedCourse:_
 
@@ -62,7 +83,8 @@ Open "http://127.0.0.1:8090" in your browser.
 
 
 ## Software Carpentary Make
-22 feb 2020 - 23 feb 2020
+
+24 feb 2020 - 25 feb 2020
 
 _Make is a tool which can run commands to read files, process these files in some way, and write out the processed files. For example, in software development, Make is used to compile source code into executable programs or libraries, but Make can also be used to:_
 
@@ -74,31 +96,33 @@ _Make is a tool which can run commands to read files, process these files in som
 
 - Introduction :
 
-To make my results easier to reproduce
+To make my results easier to reproduce.
 
 - Automatic variables
 
-To write a simple Makefile
+To write a simple Makefile.
 
 - Dependencies on data and code
 
-To write a Makefile to update things when my scripts have changed rather than my input files
+To write a Makefile to update things when my scripts have changed rather than my input files.
 
 - Pattern Rules :
 
-To define rules to operate on similar files
+To define rules to operate on similar files.
 
 - Variables:
 
-To eliminate redundancy in my Makefiles
+To eliminate redundancy in my Makefiles.
 
 - Functions
 
-To eliminate redundancy in my Makefiles
+To eliminate redundancy in my Makefiles.
 
 - Self Documenting makefiles
 
-To document a Makefile
+To document a Makefile.
+
+[https://swcarpentry.github.io/make-novice/]
 
 
 ## Block with github pages
@@ -145,6 +169,8 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/myjekyllblog/myjekyllblog.github.io
 
 git push origin master
+
+[https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a]
 
 ## Shell Script tutorial
 
@@ -193,8 +219,10 @@ else
     echo "a is not equal to b"
 
 
-String Operators :
+- String Operators :
+
 string1="Harry"
+
 string2="Potter"
 
 string3=$string1" "$string2 # string concatenation
@@ -232,9 +260,14 @@ func(){
 }
 
 - Call the function
+
 func
+
 result=$?
+
 echo $result
+
+[https://zhenye-na.github.io/2018/10/10/learn-shell-scripts-in-15-min.html]
 
 
 ## My_Project
@@ -262,6 +295,8 @@ To run the project -
 Go into project directory and run the command after completing the project -
 
 python3 manage.py runserver
+
+[https://github.com/vkjnv1/Project]
 
 ## Django Installation 
 
