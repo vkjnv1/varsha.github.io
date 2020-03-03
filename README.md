@@ -1,17 +1,17 @@
 ## Outcome Based Course
-### 24 feb 2020 , 27 feb 2020 , 28 feb 2020 , 2 feb 2020
+### 24 feb 2020 - 27 feb 2020
 
-Steps for installation of OutcomeBasedCourse:
+_Steps for installation of OutcomeBasedCourse:_
 
-Clone the repository OutcomeBasedCourse.
+-> Clone the repository OutcomeBasedCourse.
 
  git clone https://github.com/GreatDevelopers/OutcomeBasedCourse
  
-Create a database for OutcomeBasedCourse.
+-> Create a database for OutcomeBasedCourse.
 
   mysql -u root -p -e "create database outcomebasedcourse;"
   
-Edit settings.py file in OutcomeBasedCourse/ directory. Things to be edited are:
+-> Edit settings.py file in OutcomeBasedCourse/ directory. Things to be edited are:
 
  DATABASES = {
           "default":  {
@@ -24,7 +24,7 @@ Edit settings.py file in OutcomeBasedCourse/ directory. Things to be edited are:
           } 
   } 
   
-Goto the project directory and run the following commands:
+-> Goto the project directory and run the following commands:
 
  python3 manage.py makemigrations
  
@@ -36,11 +36,11 @@ Open "http://127.0.0.1:8090" in your browser.
 
 
 ## Software Carpentary Make
-### 22 feb 2020 - 23 feb 2020
+22 feb 2020 - 23 feb 2020
 
 Make is a tool which can run commands to read files, process these files in some way, and write out the processed files. For example, in software development, Make is used to compile source code into executable programs or libraries, but Make can also be used to:
 
-run analysis scripts on raw data files to get data files that summarize the raw data;
+-/ run analysis scripts on raw data files to get data files that summarize the raw data;
 
 run visualization scripts on data files to produce plots; 
 
