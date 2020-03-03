@@ -323,6 +323,8 @@ Step 4) Click YES to Install Ubuntu in USB.
 
 Step 5) After everything has been installed and configured, a small window will appear Congratulations! You now have Ubuntu on a USB stick, bootable and ready to go.
 
+[https://www.youtube.com/watch?v=K3lxFlM-3Rw&t=222s]
+
 
 
 
