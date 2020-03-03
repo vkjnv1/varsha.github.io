@@ -1,4 +1,5 @@
 ## Outcome Based Course
+### 24 feb 2020 , 27 feb 2020 , 28 feb 2020 , 2 feb 2020
 
 Steps for installation of OutcomeBasedCourse:
 
@@ -35,6 +36,7 @@ Open "http://127.0.0.1:8090" in your browser.
 
 
 ## Software Carpentary Make
+### 22 feb 2020 - 23 feb 2020
 
 Make is a tool which can run commands to read files, process these files in some way, and write out the processed files. For example, in software development, Make is used to compile source code into executable programs or libraries, but Make can also be used to:
 
@@ -78,6 +80,7 @@ The advantages and disadvantages of using tools like Make
 
 
 ## Block with github pages
+### 21 feb 2020
 
 To start a jekyll blog on github pages :
 
@@ -121,6 +124,7 @@ git remote add origin https://github.com/myjekyllblog/myjekyllblog.github.io
 git push origin master
 
 ## Shell Script tutorial
+### 20 feb 2020
 
 This tutorial is written to help people understand some of the basics of shell script programming (aka shell scripting), and hopefully to introduce some of the possibilities of simple but powerful programming available. 
 
@@ -155,7 +159,80 @@ b=666
 val1=`expr $a + $b`
 
 echo "Total value: $val1"
+
+Relational Operators:
+
+if [ $a -eq $b ]
+then
+    echo "a is equal to b"
+else
+    echo "a is not equal to b"
+
+
+String Operators :
+string1="Harry"
+string2="Potter"
+
+string3=$string1" "$string2 # string concatenation
+
+echo $string3       # print string3
+echo ${#string3}    # print length of string3
+echo ${string3:2:5} # print slice of string3
+
+Array :
+declare an array
+array=(1 2 3 4 5)
+array2=(aa bb cc mm ee)
+
+get value of an array by index
+val=${array[2]}
+echo $val
+
+val=${array2[3]}
+echo $val
+
+get length of array
+length=${#array[*]}
+echo $length
+
+Functions :
+func(){
+    intVar1=3
+    intVar2=5
+    return $(($intVar1+$intVar2))
+}
+
+Call the function
+func
+result=$?
+echo $result
+
+
+## My_Project
+### 16 feb 2020 - 17 feb 2020
+It is a website using django framework that can remove unnecessary Punctuation marks, can change the sentence to UPPERCASE format ,can remove new lines and extraspace . 
+
+These are done by four different functions :-
+1. capfirst()
+
+2. newlineremove()
+
+3. spaceremove()
+
+4. charcount()
+
+ To start a project -
+ 
+ django-admin startproject my_project
+
+To run the project -
+
+Go into project directory and run the command after completing the project -
+
+python3 manage.py runserver
+
 ## Django Installation 
+### 15 feb 2020
 
 Step 1 — Install Python and pip
 
@@ -194,6 +271,7 @@ Once it’s activated the prefix is changed to (env),
 
 
 ## Ubuntu Installation
+### 14 feb 2020
 
 _Installing Linux using USB stick :_
 
