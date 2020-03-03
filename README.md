@@ -1,91 +1,81 @@
-## Ubuntu Installation
-_Installing Linux using USB stick :_
+## Outcome Based Course
 
-Step 1) Download the .iso or the OS files on your computer
+Steps for installation of OutcomeBasedCourse:
 
-Step 2) Download free software like 'Universal USB installer to make a bootable USB stick.
+Clone the repository OutcomeBasedCourse.
 
-Step 3) Select an Ubuntu Distribution form the dropdown to put on your USB
+ git clone https://github.com/GreatDevelopers/OutcomeBasedCourse
+ 
+Create a database for OutcomeBasedCourse.
 
-Select your Ubuntu iso file download in step 1.
+  mysql -u root -p -e "create database outcomebasedcourse;"
+  
+Edit settings.py file in OutcomeBasedCourse/ directory. Things to be edited are:
 
-Select the drive letter of USB to install Ubuntu and Press create button.
+ DATABASES = {
+          "default":  {
+                 "ENGINE": "django.db.backends.mysql",
+                 "NAME": "Your database name"
+                 "HOST": "Your MySQl server host",
+                 "PORT": "Your MySQl server port",
+                 "USER": "Your MySQL username",
+                 "PASSWORD": "Your MySQl password",
+          } 
+  } 
+  
+Goto the project directory and run the following commands:
 
-Step 4) Click YES to Install Ubuntu in USB.
+ python3 manage.py makemigrations
+ 
+ python3 manage.py migrate
+ 
+ python3 manage.py runserver 127.0.0.1:8090
+ 
+Open "http://127.0.0.1:8090" in your browser.
 
-Step 5) After everything has been installed and configured, a small window will appear Congratulations! You now have Ubuntu on a USB stick, bootable and ready to go.
 
-## Django Installation 
+## Software Carpentary Make
 
-Step 1 — Install Python and pip
+Make is a tool which can run commands to read files, process these files in some way, and write out the processed files. For example, in software development, Make is used to compile source code into executable programs or libraries, but Make can also be used to:
 
-sudo apt-get update && sudo apt-get -y upgrade
+run analysis scripts on raw data files to get data files that summarize the raw data;
 
-sudo apt-get install python3
+run visualization scripts on data files to produce plots; 
 
-python3 -V
+and to parse and combine text files and plots to create papers.
 
-sudo apt-get install -y python3-pip
+Introduction 
 
-pip3 -V
+To make my results easier to reproduce
 
-Step 2 — Install virtualenv
+Automatic variables
 
-pip3 install virtualenv
+To write a simple Makefile
 
-virtualenv --version
+Dependencies on data and code
 
-Step 3 — Install Django
+To write a Makefile to update things when my scripts have changed rather than my input files
 
-mkdir django-apps
+Pattern Rules :
 
-cd django-apps
+To define rules to operate on similar files
 
-virtualenv env
+Variables:
 
-. env/bin/activate
+To eliminate redundancy in my Makefiles
 
-Once it’s activated the prefix is changed to (env),
+Functions
 
-(env) varsha@varsha-X556UQK:$ pip install django
+To eliminate redundancy in my Makefiles
 
-(env) varsha@varsha-X556UQK:$ django-admin --version
+Self Documenting makefiles
 
-## Shell Script tutorial
+To document a Makefile
 
-This tutorial is written to help people understand some of the basics of shell script programming (aka shell scripting), and hopefully to introduce some of the possibilities of simple but powerful programming available. 
+Conclusion
 
-To start the project , use any text editor and save it as .sh file.
+The advantages and disadvantages of using tools like Make
 
-#!/bin/bash
-
-echo "Hello World!"
-
-To run
-
-cd src/
-
-$ chmod +x ./hello_world.sh
-
-$ ./hello_world.sh
-
-Variable declaration
-
-intVar="233"
-
-To run
-
-echo $intVar
-
-Basic Operations
-
-a=233
-
-b=666
-
-val1=`expr $a + $b`
-
-echo "Total value: $val1"
 
 ## Block with github pages
 
@@ -130,79 +120,100 @@ git remote add origin https://github.com/myjekyllblog/myjekyllblog.github.io
 
 git push origin master
 
-## Software Carpentary Make
+## Shell Script tutorial
 
-Make is a tool which can run commands to read files, process these files in some way, and write out the processed files. For example, in software development, Make is used to compile source code into executable programs or libraries, but Make can also be used to:
+This tutorial is written to help people understand some of the basics of shell script programming (aka shell scripting), and hopefully to introduce some of the possibilities of simple but powerful programming available. 
 
-run analysis scripts on raw data files to get data files that summarize the raw data;
+To start the project , use any text editor and save it as .sh file.
 
-run visualization scripts on data files to produce plots; 
+#!/bin/bash
 
-and to parse and combine text files and plots to create papers.
+echo "Hello World!"
 
-Introduction 
+To run
 
-To make my results easier to reproduce
+cd src/
 
-Automatic variables
+$ chmod +x ./hello_world.sh
 
-To write a simple Makefile
+$ ./hello_world.sh
 
-Dependencies on data and code
+Variable declaration
 
-To write a Makefile to update things when my scripts have changed rather than my input files
+intVar="233"
 
-Pattern Rules :
+To run
 
-To define rules to operate on similar files
+echo $intVar
 
-Variables:
+Basic Operations
 
-To eliminate redundancy in my Makefiles
+a=233
 
-Functions
+b=666
 
-To eliminate redundancy in my Makefiles
+val1=`expr $a + $b`
 
-Self Documenting makefiles
+echo "Total value: $val1"
+## Django Installation 
 
-To document a Makefile
+Step 1 — Install Python and pip
 
-Conclusion
+sudo apt-get update && sudo apt-get -y upgrade
 
-The advantages and disadvantages of using tools like Make
+sudo apt-get install python3
 
-## Outcome Based Course
+python3 -V
 
-Steps for installation of OutcomeBasedCourse:
+sudo apt-get install -y python3-pip
 
-Clone the repository OutcomeBasedCourse.
+pip3 -V
 
- git clone https://github.com/GreatDevelopers/OutcomeBasedCourse
- 
-Create a database for OutcomeBasedCourse.
+Step 2 — Install virtualenv
 
-  mysql -u root -p -e "create database outcomebasedcourse;"
-  
-Edit settings.py file in OutcomeBasedCourse/ directory. Things to be edited are:
+pip3 install virtualenv
 
- DATABASES = {
-          "default":  {
-                 "ENGINE": "django.db.backends.mysql",
-                 "NAME": "Your database name"
-                 "HOST": "Your MySQl server host",
-                 "PORT": "Your MySQl server port",
-                 "USER": "Your MySQL username",
-                 "PASSWORD": "Your MySQl password",
-          } 
-  } 
-  
-Goto the project directory and run the following commands:
+virtualenv --version
 
- python3 manage.py makemigrations
- 
- python3 manage.py migrate
- 
- python3 manage.py runserver 127.0.0.1:8090
- 
-Open "http://127.0.0.1:8090" in your browser.
+Step 3 — Install Django
+
+mkdir django-apps
+
+cd django-apps
+
+virtualenv env
+
+. env/bin/activate
+
+Once it’s activated the prefix is changed to (env),
+
+(env) varsha@varsha-X556UQK:$ pip install django
+
+(env) varsha@varsha-X556UQK:$ django-admin --version
+
+
+
+## Ubuntu Installation
+
+_Installing Linux using USB stick :_
+
+Step 1) Download the .iso or the OS files on your computer
+
+Step 2) Download free software like 'Universal USB installer to make a bootable USB stick.
+
+Step 3) Select an Ubuntu Distribution form the dropdown to put on your USB
+
+Select your Ubuntu iso file download in step 1.
+
+Select the drive letter of USB to install Ubuntu and Press create button.
+
+Step 4) Click YES to Install Ubuntu in USB.
+
+Step 5) After everything has been installed and configured, a small window will appear Congratulations! You now have Ubuntu on a USB stick, bootable and ready to go.
+
+
+
+
+
+
+
