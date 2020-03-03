@@ -1,5 +1,5 @@
 ## Outcome Based Course
-### 24 feb 2020 - 27 feb 2020
+24 feb 2020 - 27 feb 2020
 
 _Steps for installation of OutcomeBasedCourse:_
 
@@ -34,55 +34,54 @@ _Steps for installation of OutcomeBasedCourse:_
  
 Open "http://127.0.0.1:8090" in your browser.
 
+[OutcomeBasedCourse] https://github.com/GreatDevelopers/OutcomeBasedCourse
+
 
 ## Software Carpentary Make
 22 feb 2020 - 23 feb 2020
 
-Make is a tool which can run commands to read files, process these files in some way, and write out the processed files. For example, in software development, Make is used to compile source code into executable programs or libraries, but Make can also be used to:
+_Make is a tool which can run commands to read files, process these files in some way, and write out the processed files. For example, in software development, Make is used to compile source code into executable programs or libraries, but Make can also be used to:_
 
--/ run analysis scripts on raw data files to get data files that summarize the raw data;
+1. run analysis scripts on raw data files to get data files that summarize the raw data.
 
-run visualization scripts on data files to produce plots; 
+2. run visualization scripts on data files to produce plots.
 
-and to parse and combine text files and plots to create papers.
+3.  parse and combine text files and plots to create papers.
 
-Introduction 
+- Introduction :
 
 To make my results easier to reproduce
 
-Automatic variables
+- Automatic variables
 
 To write a simple Makefile
 
-Dependencies on data and code
+- Dependencies on data and code
 
 To write a Makefile to update things when my scripts have changed rather than my input files
 
-Pattern Rules :
+- Pattern Rules :
 
 To define rules to operate on similar files
 
-Variables:
+- Variables:
 
 To eliminate redundancy in my Makefiles
 
-Functions
+- Functions
 
 To eliminate redundancy in my Makefiles
 
-Self Documenting makefiles
+- Self Documenting makefiles
 
 To document a Makefile
 
-Conclusion
-
-The advantages and disadvantages of using tools like Make
-
 
 ## Block with github pages
-### 21 feb 2020
 
-To start a jekyll blog on github pages :
+21 feb 2020
+
+_To start a jekyll blog on github pages :_
 
 1. Create a new repository on github
 
@@ -105,7 +104,7 @@ jekyll serve --watch
 
 4. Change the configurations
 
-Your Jekyll blog’s configurations reside in the _config.yml file. When you install Jekyll it comes with a default config. Open the file in a code editor and change the values.
+_Your Jekyll blog’s configurations reside in the _config.yml file. When you install Jekyll it comes with a default config. Open the file in a code editor and change the values._
 
 5. Add Blog Posts
 
@@ -124,17 +123,18 @@ git remote add origin https://github.com/myjekyllblog/myjekyllblog.github.io
 git push origin master
 
 ## Shell Script tutorial
-### 20 feb 2020
 
-This tutorial is written to help people understand some of the basics of shell script programming (aka shell scripting), and hopefully to introduce some of the possibilities of simple but powerful programming available. 
+20 feb 2020
 
-To start the project , use any text editor and save it as .sh file.
+_This tutorial is written to help people understand some of the basics of shell script programming (aka shell scripting), and hopefully to introduce some of the possibilities of simple but powerful programming available._ 
+
+- To start the project , use any text editor and save it as .sh file.
 
 #!/bin/bash
 
 echo "Hello World!"
 
-To run
+- To run
 
 cd src/
 
@@ -142,15 +142,15 @@ $ chmod +x ./hello_world.sh
 
 $ ./hello_world.sh
 
-Variable declaration
+- Variable declaration :
 
 intVar="233"
 
-To run
+- To run
 
 echo $intVar
 
-Basic Operations
+- Basic Operations :
 
 a=233
 
@@ -160,7 +160,7 @@ val1=`expr $a + $b`
 
 echo "Total value: $val1"
 
-Relational Operators:
+- Relational Operators :
 
 if [ $a -eq $b ]
 then
@@ -176,43 +176,51 @@ string2="Potter"
 string3=$string1" "$string2 # string concatenation
 
 echo $string3       # print string3
+
 echo ${#string3}    # print length of string3
+
 echo ${string3:2:5} # print slice of string3
 
-Array :
-declare an array
+- Array :
+
 array=(1 2 3 4 5)
+
 array2=(aa bb cc mm ee)
 
-get value of an array by index
 val=${array[2]}
+
 echo $val
 
 val=${array2[3]}
+
 echo $val
 
-get length of array
 length=${#array[*]}
+
 echo $length
 
-Functions :
+- Functions :
+
 func(){
     intVar1=3
     intVar2=5
     return $(($intVar1+$intVar2))
 }
 
-Call the function
+- Call the function
 func
 result=$?
 echo $result
 
 
 ## My_Project
-### 16 feb 2020 - 17 feb 2020
+
+16 feb 2020 - 17 feb 2020
+
 It is a website using django framework that can remove unnecessary Punctuation marks, can change the sentence to UPPERCASE format ,can remove new lines and extraspace . 
 
 These are done by four different functions :-
+
 1. capfirst()
 
 2. newlineremove()
@@ -232,7 +240,8 @@ Go into project directory and run the command after completing the project -
 python3 manage.py runserver
 
 ## Django Installation 
-### 15 feb 2020
+
+15 feb 2020
 
 Step 1 — Install Python and pip
 
@@ -271,7 +280,8 @@ Once it’s activated the prefix is changed to (env),
 
 
 ## Ubuntu Installation
-### 14 feb 2020
+
+14 feb 2020
 
 _Installing Linux using USB stick :_
 
