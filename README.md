@@ -1,3 +1,40 @@
+## Seminar
+I gave seminar on sqlite and phpmyadmin.
+
+## sqlite through phpmyadmin
+
+12 march 2020 to 19 march 2020
+
+Install phpmyadmin from ubuntu packages :
+
+Step 1: Update Package Index
+
+sudo apt-get update
+
+Step 2: Install phpMyAdmin Package
+
+sudo apt-get install -y phpmyadmin
+
+Then follow the steps as given in following link :-
+
+https://www.hostingadvice.com/how-to/install-phpmyadmin-on-ubuntu/
+
+## Software Carpentary Sqlite
+
+12 march 2020 to 14 march 2020
+
+I read the tuturial of sqlite through the link :-
+
+https://swcarpentry.github.io/sql-novice-survey/
+
+## Bootstrap Tutorial
+
+04 march 2020
+
+Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites. It was useful tutorial to learn bootstrap in 1 hour through the link :-
+
+https://www.youtube.com/watch?v=008dZPBZtLQ&t=1738s
+
 ## To provide extra space to ubuntu
 
 03 march 2020
