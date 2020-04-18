@@ -1,5 +1,5 @@
 ## 25 march 2020
-Udemy course continued - did HTML advanced
+Udemy course continued - HTML advanced
 
 Solved 2 competitive questions from the link :-
 
