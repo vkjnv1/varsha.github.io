@@ -1,4 +1,31 @@
+## 25 march 2020
+Udemy course continued - did HTML advanced
+
+Solved 2 competitive questions from the link :-
+
+https://www.a2oj.com/Ladder4.html 
+
+1. https://codeforces.com/problemset/problem/4/A
+
+2. https://codeforces.com/problemset/problem/71/A
+
+## A new course on Udemy
+
+Trying to brush my skills of web development by following course :
+
+https://www.udemy.com/course/the-complete-web-development-course/learn
+
+Did HTML basics from this course
+
+## Competitive coding
+24 march 2020
+Started reading a book named 
+"Competitive Programmer’s Handbook" by
+"Antti Laaksonen" and
+Draft July 3, 2018
+
 ## Seminar
+20 march 2020
 I gave seminar on sqlite and phpmyadmin.
 
 ## sqlite through phpmyadmin
