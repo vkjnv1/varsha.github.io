@@ -1,3 +1,13 @@
+## 21 april 2020
+
+Attended a webinar of AttainU :
+
+They were discussing about some latest technologies like react,angular, viu.js,django framework,flutter etc and which technologies are more in trend .
+
+Gave a contest on codeforces :-
+
+https://codeforces.com/contests/1343
+
 ## 20 april 2020
 
 Solved 2 questions from codeforces a2j ladder :
