@@ -1,3 +1,21 @@
+## 20 march 2020
+
+Solved 2 questions from codeforces a2j ladder :
+
+1. https://codeforces.com/contest/450/problem/B
+
+2. https://codeforces.com/contest/454/problem/B
+
+learnt a new concept :- How to use modulo 10^9+7
+
+If we are going to output a[n] , then can do following operation 
+
+a[n]%=mod
+
+a[n]+=mod;
+  
+cout<<a[n]%mod;
+  
 ## 25 march 2020
 Udemy course continued - HTML advanced
 
