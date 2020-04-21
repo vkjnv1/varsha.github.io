@@ -1,4 +1,4 @@
-## 20 march 2020
+## 20 april 2020
 
 Solved 2 questions from codeforces a2j ladder :
 
@@ -15,6 +15,24 @@ a[n]%=mod
 a[n]+=mod;
   
 cout<<a[n]%mod;
+
+## 18 april 2020
+
+Solved 3 questions from codeforces a2j ladder :
+
+1. https://codeforces.com/contest/508/problem/B
+
+2. https://codeforces.com/contest/478/problem/B
+
+3. https://codeforces.com/contest/266/problem/B
+
+Learnt some new concepts :-
+
+-> combination nc2 is equal to n*(n-1)/2
+
+-> An integer in string can give same value of integer on subtracting by 48
+
+s[i]-48
   
 ## 25 march 2020
 Udemy course continued - HTML advanced
