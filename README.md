@@ -1,3 +1,13 @@
+### 22 april 2020
+
+solved 3 questions from codeforces :
+
+1. https://codeforces.com/contest/1343/problem/A
+
+2. https://codeforces.com/contest/1343/problem/B
+
+3. https://codeforces.com/contest/1343/problem/C
+
 ## 21 april 2020
 
 Attended a webinar of AttainU :
