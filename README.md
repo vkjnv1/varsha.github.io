@@ -12,7 +12,7 @@ solved 3 questions from codeforces :
 
 Attended a webinar of AttainU :
 
-They were discussing about some latest technologies like react,angular, viu.js,django framework,flutter etc and which technologies are more in trend .
+They were discussing about some latest technologies like react,angular, vue.js,django framework,flutter etc and which technologies are more in trend .
 
 Gave a contest on codeforces :-
 
