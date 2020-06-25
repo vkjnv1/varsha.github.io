@@ -1,3 +1,92 @@
+### 23 may 2020
+Power Point presentstion of Hostel Management System
+### 21 may 2020
+Check all the flaws in my project and correct that
+
+### 19 may 2020
+Major project report
+### 17 may 2020
+Mid term  report
+### 16 june 2020
+Starting synopsis ofmajor project
+### 13 june 2020
+Working on backend
+
+### 10 june 2020 to 12 june 2020
+Access log , showing the user's details accessing website.
+### 8 june 2020 to 9 june 2020
+All room details
+
+### 4 june 2020 to 6 june 2020
+Book hostel page by user
+### 3 june 2020
+Change password page if needed
+
+### 2 june 2020
+User's profile page
+### 1 june 2020
+Continuing user panel
+### 30 may 2020 to 31 may 2020
+Manage Students page
+### 29 may 2020
+Students registration page with different information
+
+### 26 may 2020 to 28 may 2020
+Add rooms and managing rooms
+
+### 22 may 2020 to 24 may 2020
+Making courses with add course and manage courses
+
+### 21 may 2020
+Making of admin profile page
+### 20 may 2020
+Making a database in xampp server with the name hostel
+### 19 may 2020 to 20 may 2020
+Making of User registration and login page
+
+### 16 may 2020 to 18may 2020
+Making the main page of Hostel Management system
+### 15 may 2020
+Linking the index page to database
+
+### 12 may 2020 to 14 may 2020
+Index page of Hostel Management system
+
+### 11 my 2020
+Creating a navigation
+
+### 9 may 2020
+Styling links and buttons
+### 8 ay 2020
+Fonts and colors in CSS
+### 7may 2020
+Selectors in CSS
+### 6may 2020
+Inline Internal and external CSS
+### 5may 2020
+Introduction to CSS
+### 4may 2020
+IDs and classes
+### 2 may 2020
+Forms and input tags
+### 1 may 2020
+List and tables
+
+### 30 april 2020
+img and anchor tags
+### 29 april 2020
+Headings and paragraphs
+
+### 28 april 2020
+Title scripts,links and meta tags 
+
+### 25 april 2020 to 27 april 2020
+Basic stucture of a website
+
+### 24 april 2020
+Installing VS code and live server
+### 23 april 2020
+Introduction to html css & javascript
 ### 22 april 2020
 
 solved 3 questions from codeforces :
